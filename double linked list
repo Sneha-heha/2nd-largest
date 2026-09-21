@@ -1,4 +1,6 @@
-#include<stdio.h>
+
+struct node*head = NULL;
+insert(&head,10,1);#include<stdio.h>
 #include<stdlib.h>
 struct node{
 int data;
@@ -34,8 +36,6 @@ free(newnode);}
 void display(){
 }
 int main(){
-struct node*head = NULL;
-insert(&head,10,1);
 insert(&head,20,1);
 insert(&head,30,1);
 display(head);
